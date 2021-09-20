@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-I can upload photos or videos to telegraph. Made by @ImJanindu 🇱🇰
+I can upload photos or videos to telegraph. Made by @Harris211
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -27,10 +27,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Channel", url="https://t.me/GOD_OF_WORLD1")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "Source Code", url="https://heroku.com/deploy?template=https://github.com/Harris7864/JETelegraphBot/tree/main")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -54,7 +54,7 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "Source Code", url="")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -67,19 +67,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/Harris211">Harris</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Support:</b> <a href="https://t.me/ROBOT1_SUPPORT">ROBOT SUPPORT</a>
 
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>~ @Infinity_BOTs</b>""",
+<b>~ @IHarris211</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
+                                            "Source Code", url="https://heroku.com/deploy?template=https://github.com/Harris7864/JETelegraphBot/tree/main")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -95,7 +95,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("Photo size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @JEBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @GOD_OF_WORLD1**',
             disable_web_page_preview=True,
         )
     finally:
@@ -111,7 +111,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @JEBotZ**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @GOD_OF_WORLD1**',
             disable_web_page_preview=True,
         )
     finally:
